@@ -1,13 +1,6 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 [![Build Status](https://travis-ci.com/bahdcoder/hello-books-deferral.svg?branch=master)](https://travis-ci.com/bahdcoder/hello-books-deferral)
 
-# hello-books-deferral
-=======
-=======
-[![Build Status](https://travis-ci.com/bahdcoder/hello-books-deferral.svg?branch=master)](https://travis-ci.com/bahdcoder/hello-books-deferral)
-
->>>>>>> chore(ReadMe, .travis) travis integration
 # Hello Books 
 A system that allows efficient, cost-effective management of our 
 
@@ -32,8 +25,3 @@ To certify that the server is operational navigate to http://localhost:5000 on y
 ```
 { message: 'Hello Books Deferral' }
 ```
-<<<<<<< HEAD
-
->>>>>>> chore(ch): Initialize the express server with environment variables (#3)
-=======
->>>>>>> chore(ReadMe, .travis) travis integration
