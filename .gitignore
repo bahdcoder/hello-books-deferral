@@ -5,4 +5,8 @@ package-lock.json
 =======
 coverage
 .nyc_output
+<<<<<<< HEAD
 >>>>>>> chore(test, package.json) setting up test environment
+=======
+.env
+>>>>>>> chore(ch): Initialize the express server with environment variables (#3)
