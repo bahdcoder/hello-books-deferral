@@ -7,5 +7,9 @@ cache:
 services:
   - postgresql
 after_success: 
+<<<<<<< HEAD
   - npm run coverage
   
+=======
+  - npm run coverage
+>>>>>>> chore(ReadMe, .travis) travis integration

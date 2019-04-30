@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_ENV=test nyc --reporter=html --reporter=text mocha --timeout=10000",
-    "coverage": "nyc report --reporter=text-lcov | coveralls",
     "dev": "nodemon server/index",
-    "start": "node server/index"
+    "start": "node server/index",
+    "coverage": "nyc report --reporter=text-lcov | coveralls"
   },
   "repository": {
     "type": "git",
