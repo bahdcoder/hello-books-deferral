@@ -1,3 +1,8 @@
 node_modules
 package-lock.json
+<<<<<<< HEAD
 .env
+=======
+coverage
+.nyc_output
+>>>>>>> chore(test, package.json) setting up test environment
