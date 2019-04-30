@@ -8,3 +8,4 @@ services:
   - postgresql
 after_success: 
   - npm run coverage
+  
