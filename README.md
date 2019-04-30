@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Hello Books 
 A system that allows efficient, cost-effective management of our 
 
@@ -23,3 +24,8 @@ To certify that the server is operational navigate to http://localhost:5000 on y
 { message: 'Hello Books Deferral' }
 ```
 
+=======
+[![Build Status](https://travis-ci.com/bahdcoder/hello-books-deferral.svg?branch=master)](https://travis-ci.com/bahdcoder/hello-books-deferral)
+
+# hello-books-deferral
+>>>>>>> chore(ReadMe, .travis) travis integration
