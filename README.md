@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/bahdcoder/hello-books-deferral.svg?branch=master)](https://travis-ci.com/bahdcoder/hello-books-deferral)
+[![Build Status](https://travis-ci.com/bahdcoder/hello-books-deferral.svg?branch=master)](https://travis-ci.com/bahdcoder/hello-books-deferral) [![Coverage Status](https://coveralls.io/repos/github/bahdcoder/hello-books-deferral/badge.svg?branch=master)](https://coveralls.io/github/bahdcoder/hello-books-deferral?branch=master)
 
 # Hello Books 
 A system that allows efficient, cost-effective management of our 
