@@ -1,8 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
 import About from '@pages/About';
 import index from '@pages/index';
-import Navbar from '../layout/Navbar';
+import Navbar from '@components/Navbar';
+import { BrowserRouter, Route } from 'react-router-dom';
 
 export default function Main() {
     return (

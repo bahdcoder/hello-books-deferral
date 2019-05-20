@@ -1,6 +1,6 @@
+import classJoin from 'classnames';
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import classJoin from 'classnames';
 
 const Navbar = () => {
     const [isVisible, changeVisibility] = useState(false);
