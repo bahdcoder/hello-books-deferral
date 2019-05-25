@@ -21,7 +21,6 @@ export const isAuthenticated = async (req, res, next) => {
                 message: 'Unauthenticated'
             });
         }
-
         req.user = user;
         next();
     } catch (error) {
@@ -42,6 +41,7 @@ export const isAdmin = (req, res, next) => {
     next();
 };
 
+
 export const isSuperAdmin = (req, res, next) => {
     const { role } = req.user;
 
@@ -55,7 +55,6 @@ export const isSuperAdmin = (req, res, next) => {
 
 const isPatron = (req, res, next) => {
     const { role } = req.user;
-
     if (role !== 'patron') {
         return res.status(403).jsend({
             message: 'UnAuthorised'

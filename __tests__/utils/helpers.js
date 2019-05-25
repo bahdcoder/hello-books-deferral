@@ -19,7 +19,11 @@ export const getUser = () => ({
     lastName: faker.name.lastName(),
     email: faker.internet.email(),
     password_confirmation: 'secret0001',
-    password: 'secret0001'
+    password: 'secret0001',
+    settings: {
+        email_notify: 1,
+        in_app_notify: 1
+    }
 });
 
 export const createUser = user =>
@@ -28,6 +32,10 @@ export const createUser = user =>
         lastName: user.lastName,
         email: user.email,
         password: 'secret0001',
+        settings: {
+            email_notify: 1,
+            in_app_notify: 0
+        },
         role: user.role || 'patron'
     });
 
@@ -52,7 +60,11 @@ export const superAdminUser = user =>
         lastName: user.lastName,
         email: user.email,
         password: 'secret0001',
-        role: 'super_admin'
+        role: 'super_admin',
+        settings: {
+            email_notify: 0,
+            in_app_notify: 1
+        }
     });
 
 export const getFine = user_id => ({

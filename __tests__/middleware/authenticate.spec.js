@@ -3,6 +3,7 @@ import jwt from 'jsonwebtoken';
 import User from '@models/User';
 import { Response, getUser } from '@tests/utils/helpers';
 import { app, databaseConnection } from '@server/app';
+
 import {
     isAuthenticated,
     userExists,
@@ -105,7 +106,11 @@ describe('Auth middleware', () => {
             email: user.email,
             password: user.password,
             firstName: user.firstName,
-            lastName: user.lastName
+            lastName: user.lastName,
+            settings: {
+                email_notify: 1,
+                in_app_notify: 1
+            }
         });
 
         const token = jwt.sign(

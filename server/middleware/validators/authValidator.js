@@ -1,6 +1,6 @@
+
 import { validateAll, sanitize } from 'indicative';
 import User from '@models/User';
-
 import {
     validatorInstance,
     messages,
@@ -13,7 +13,7 @@ const signUp = (req, res, next) => {
         firstName: 'alpha|required',
         lastName: 'alpha|required',
         email: 'required|string|email|unique:users,email',
-        password: 'required|min:8|alpha_numeric'
+        password: 'required|min:8|alpha_numeric|confirmed'
     };
     /* sanitize data object */
     let data = req.body;

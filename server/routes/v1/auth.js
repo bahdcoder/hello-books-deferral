@@ -26,5 +26,4 @@ router.patch(
     authValidator.resetPassword,
     authController.resetPassword
 );
-
 export default router;

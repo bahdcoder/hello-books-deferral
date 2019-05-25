@@ -5,5 +5,6 @@ coverage
 .nyc_output
 .vscode
 yarn.lock
+vim.exe.stackdump
 build
 yarn.lock
